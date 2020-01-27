@@ -4,7 +4,8 @@ MSDatabase:
   #url: "jdbc:oracle:thin:@IN2NPDLNXDB18:1521:if18cb"
   #driverClassName: "oracle.jdbc.driver.OracleDriver"
   url: "jdbc:sqlserver://azpsrwmsdb01:1433;databaseName=IFMessageStoreDB"
-  driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+  #driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+  driverClassName: "net.sourceforge.jtds.jdbc.Driver"
   user: "sa-IFMessageStoreDB"
   password: "sa-IFMessageStoreDB"
         
