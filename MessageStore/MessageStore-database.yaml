@@ -6,8 +6,8 @@ MSDatabase:
   url: "jdbc:sqlserver://azpsrwmsdb01:1433;databaseName=IFMessageStoreDB"
   #driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
   driverClassName: "net.sourceforge.jtds.jdbc.Driver"
-  user: "sa-IFMessageStoreDB"
-  password: "sa-IFMessageStoreDB"
+  user: "sa"
+  password: "P@ssw0rd#100"
         
   connection:
     maxPoolSize: "30"
